@@ -15,7 +15,7 @@ from streamlit_chat import message
 ## Configure the Embedchain App
 ## For this application we will use Llama-3.2 using @ollama you can choose from OpenAI, anthropic or any other LLM.
 ## Select the vector database as the opensource chroma db (you are free to choose any other vector database of your choice)
-
+#might work
 def embedchain_bot(db_path):
     return App.from_config(
         config={
